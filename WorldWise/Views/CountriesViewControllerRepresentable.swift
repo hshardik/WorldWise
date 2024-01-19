@@ -20,7 +20,7 @@ struct CountriesViewControllerRepresentable: UIViewControllerRepresentable {
     // This method updates the view controller with new data.
     func updateUIViewController(_ uiViewController: UINavigationController, context: Context) {
         // If there's any data that needs to be updated in CountriesViewController, do it here.
-        // For example, you might want to pass new data to the view model.
+
     }
 }
 

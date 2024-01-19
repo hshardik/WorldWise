@@ -12,7 +12,6 @@ struct ContentView: View {
         NavigationView {
             CountriesViewControllerRepresentable()
                 .navigationTitle("Countries")
-                .edgesIgnoringSafeArea(.bottom) // If you want your view controller to extend under the navigation bar
         }
     }
 }
