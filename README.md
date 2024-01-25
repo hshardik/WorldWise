@@ -1,9 +1,10 @@
 # WorldWise
 
 ## Overview
-WorldWise is an iOS application designed as a demonstration of integrating SwiftUI and UIKit within the same project. The app utilizes the Rest Countries API to fetch and display country information in an engaging and informative manner.
-
-The project serves as a practical example of combining SwiftUI's modern declarative syntax with the robustness and familiarity of UIKit, offering a harmonious blend of both worlds.
+- WorldWise is an iOS application to display facts about countries around the world.
+- The app utilizes the Rest Countries API to fetch and display country information .
+- The project serves as a practical example of combining SwiftUI's modern declarative syntax with the robustness and familiarity of UIKit, offering a harmonious blend of both worlds.
+- The project integrates the VungleAds SDK to bring monetization capabilities to the application.
 
 ## Features
 - Fetches country data from the Rest Countries API.
@@ -11,6 +12,7 @@ The project serves as a practical example of combining SwiftUI's modern declarat
 - Search functionality to quickly find countries.
 - Integration of SwiftUI for modern UI elements.
 - Utilization of UIKit components for handling specific functionalities.
+- Advertising with Vungle.
 
 ## Technologies
 - SwiftUI
@@ -18,11 +20,7 @@ The project serves as a practical example of combining SwiftUI's modern declarat
 - Combine
 - Async/Await
 - RESTful APIs
-
-## Screenshots
-Here is a quick look at what the WorldWise app offers:
-
-![WorldWise Demo](https://github.com/hshardik/WorldWise/blob/main/UISample.gif)
+- VungleAds SDK(7.2.1)
 
 ## Running the Project
 To run WorldWise on your local machine:
@@ -39,9 +37,14 @@ WorldWise is a growing project, and we plan to continuously improve it. Some of 
 - **Offline Access**: Implementing offline access so that users can view country information even without an internet connection.
 - **Integration with Maps**: Adding an interactive map feature to visually explore countries and their neighbors.
 - **Community Features**: Building a community section where users can share their travel experiences or insights about different countries.
+
+## Dependencies
+- VungleAdsSDK (7.2.1)
+
 ## License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
-- Rest Countries API
+- [Rest Countries API](https://gist.githubusercontent.com/peymano-wmt/32dcb892b06648910ddd40406e37fdab/raw/db25946fd77c5873b0303b858e861ce724e0dcd0/countries.json)
 - SwiftUI and UIKit communities
+- [Vungle SDK Guide](https://support.vungle.com/hc/en-us/articles/14116217435291#create-a-rewarded-ad-0-0)
