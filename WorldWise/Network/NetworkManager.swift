@@ -7,9 +7,8 @@
 
 import Foundation
 
-import Foundation
+// Protocols to simulate network responses for Unit Testing
 
-// Protocol to simulate network responses
 protocol URLSessionProtocol {
     func dataTask(with url: URL, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTaskProtocol
 }
@@ -46,7 +45,7 @@ class NetworkManager: NetworkManagerProtocol {
     }
 
     func fetchCountries() async throws -> [Country] {
-        guard let url = URL(string: "https://gist.githubusercontent.com/peymano-wmt/32dcb892b06648910ddd40406e37fdab/raw/db25946fd77c5873b0303b858e861ce724e0dcd0/countries.json") else {
+        guard let url = URL(string: Constants.API.Url) else {
             throw NetworkError.invalidURL
         }
 

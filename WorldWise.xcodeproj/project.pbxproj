@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		566826E42B6244560027A005 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 566826E32B6244560027A005 /* Constants.swift */; };
 		56A509622B560090009F27C1 /* WorldWiseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A509612B560090009F27C1 /* WorldWiseApp.swift */; };
-		56A509642B560090009F27C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A509632B560090009F27C1 /* ContentView.swift */; };
 		56A509662B560091009F27C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A509652B560091009F27C1 /* Assets.xcassets */; };
 		56A509692B560091009F27C1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56A509682B560091009F27C1 /* Preview Assets.xcassets */; };
 		56A509732B5600C3009F27C1 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A509722B5600C3009F27C1 /* Country.swift */; };
 		56A509762B5600F4009F27C1 /* CountryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56A509752B5600F4009F27C1 /* CountryViewModel.swift */; };
 		56E442C52B59D751006B76FF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E442C42B59D751006B76FF /* NetworkManager.swift */; };
-		56E442C72B59D810006B76FF /* CountriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E442C62B59D810006B76FF /* CountriesView.swift */; };
+		56E442C72B59D810006B76FF /* CountriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E442C62B59D810006B76FF /* CountriesViewController.swift */; };
 		56E442CC2B59DFA9006B76FF /* CountriesViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E442CB2B59DFA9006B76FF /* CountriesViewControllerRepresentable.swift */; };
 		56E442DC2B5A404C006B76FF /* MockURLSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E442DB2B5A404C006B76FF /* MockURLSession.swift */; };
 		56E442DE2B5A48C5006B76FF /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E442DD2B5A48C5006B76FF /* NetworkManagerTests.swift */; };
 		56E442E32B5B138A006B76FF /* CountryViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E442E22B5B138A006B76FF /* CountryViewModelTests.swift */; };
 		56E442E52B5B13BE006B76FF /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56E442E42B5B13BE006B76FF /* MockNetworkManager.swift */; };
+		56E442E92B609068006B76FF /* VungleAdsSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 56E442E82B609068006B76FF /* VungleAdsSDK */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,21 +34,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		566826E32B6244560027A005 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		56A5095E2B560090009F27C1 /* WorldWise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldWise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		56A509612B560090009F27C1 /* WorldWiseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWiseApp.swift; sourceTree = "<group>"; };
-		56A509632B560090009F27C1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		56A509652B560091009F27C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		56A509682B560091009F27C1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		56A509722B5600C3009F27C1 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
 		56A509752B5600F4009F27C1 /* CountryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModel.swift; sourceTree = "<group>"; };
 		56E442C42B59D751006B76FF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
-		56E442C62B59D810006B76FF /* CountriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesView.swift; sourceTree = "<group>"; };
+		56E442C62B59D810006B76FF /* CountriesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewController.swift; sourceTree = "<group>"; };
 		56E442CB2B59DFA9006B76FF /* CountriesViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		56E442D12B5A3E30006B76FF /* WorldWiseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldWiseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		56E442DB2B5A404C006B76FF /* MockURLSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockURLSession.swift; sourceTree = "<group>"; };
 		56E442DD2B5A48C5006B76FF /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		56E442E22B5B138A006B76FF /* CountryViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryViewModelTests.swift; sourceTree = "<group>"; };
 		56E442E42B5B13BE006B76FF /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		56E442EA2B6096DF006B76FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56E442E92B609068006B76FF /* VungleAdsSDK in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +71,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		566826E52B6249440027A005 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				566826E32B6244560027A005 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 		56A509552B560090009F27C1 = {
 			isa = PBXGroup;
 			children = (
@@ -89,12 +100,13 @@
 		56A509602B560090009F27C1 /* WorldWise */ = {
 			isa = PBXGroup;
 			children = (
+				566826E52B6249440027A005 /* Constants */,
+				56E442EA2B6096DF006B76FF /* Info.plist */,
 				56E442C32B59D6FB006B76FF /* Network */,
 				56A509712B5600A5009F27C1 /* ViewModels */,
 				56A509702B56009E009F27C1 /* Views */,
 				56A5096F2B560098009F27C1 /* Models */,
 				56A509612B560090009F27C1 /* WorldWiseApp.swift */,
-				56A509632B560090009F27C1 /* ContentView.swift */,
 				56A509652B560091009F27C1 /* Assets.xcassets */,
 				56A509672B560091009F27C1 /* Preview Content */,
 			);
@@ -120,7 +132,7 @@
 		56A509702B56009E009F27C1 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				56E442C62B59D810006B76FF /* CountriesView.swift */,
+				56E442C62B59D810006B76FF /* CountriesViewController.swift */,
 				56E442CB2B59DFA9006B76FF /* CountriesViewControllerRepresentable.swift */,
 			);
 			path = Views;
@@ -178,6 +190,9 @@
 			dependencies = (
 			);
 			name = WorldWise;
+			packageProductDependencies = (
+				56E442E82B609068006B76FF /* VungleAdsSDK */,
+			);
 			productName = WorldWise;
 			productReference = 56A5095E2B560090009F27C1 /* WorldWise.app */;
 			productType = "com.apple.product-type.application";
@@ -228,6 +243,9 @@
 				Base,
 			);
 			mainGroup = 56A509552B560090009F27C1;
+			packageReferences = (
+				56E442E72B609068006B76FF /* XCRemoteSwiftPackageReference "VungleAdsSDK-SwiftPackageManager" */,
+			);
 			productRefGroup = 56A5095F2B560090009F27C1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -284,13 +302,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56A509642B560090009F27C1 /* ContentView.swift in Sources */,
 				56A509762B5600F4009F27C1 /* CountryViewModel.swift in Sources */,
-				56E442C72B59D810006B76FF /* CountriesView.swift in Sources */,
+				56E442C72B59D810006B76FF /* CountriesViewController.swift in Sources */,
 				56E442C52B59D751006B76FF /* NetworkManager.swift in Sources */,
 				56E442CC2B59DFA9006B76FF /* CountriesViewControllerRepresentable.swift in Sources */,
 				56A509732B5600C3009F27C1 /* Country.swift in Sources */,
 				56A509622B560090009F27C1 /* WorldWiseApp.swift in Sources */,
+				566826E42B6244560027A005 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +464,8 @@
 				DEVELOPMENT_TEAM = YNS6YXH239;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldWise/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -475,6 +495,8 @@
 				DEVELOPMENT_TEAM = YNS6YXH239;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WorldWise/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -560,6 +582,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		56E442E72B609068006B76FF /* XCRemoteSwiftPackageReference "VungleAdsSDK-SwiftPackageManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Vungle/VungleAdsSDK-SwiftPackageManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		56E442E82B609068006B76FF /* VungleAdsSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 56E442E72B609068006B76FF /* XCRemoteSwiftPackageReference "VungleAdsSDK-SwiftPackageManager" */;
+			productName = VungleAdsSDK;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 56A509562B560090009F27C1 /* Project object */;
 }
